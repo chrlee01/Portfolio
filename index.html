@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="/styles/style.css">
 
@@ -15,6 +16,91 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/profile.jpg" class="logo" width="45" height="45">
+                Christian
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+
+<!-----------------Home Page---------------------->
+      
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <h1> Hi there! I'm <span>Christian</span> Lee</h1>
+                <p>Student from University of Colorado Boulder</p>
+            </div>
+        </div>
+    </div>
+
+<!-----------------About Page---------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="about-text">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3> Get to know me!</h3>
+                    <p> I am currently a <span>4th year student</span> at the University of Colorado Boulder studying <span>Computer Science</span>.</p>
+                </div>
+                <div class="col">
+                    <h3>Skills</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-----------------Contact Page---------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <br>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> chrlee@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 720-413-6026</p>
+                </div>
+                <div class="col">
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required> <br> <br>
+                            <input type="text" name="Email" placeholder="Your Email" required> <br> <br>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea> <br> <br>
+                            <button type="submit" class="btn btn2"> Submit</button>
+                            
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
